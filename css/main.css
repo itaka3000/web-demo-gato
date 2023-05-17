@@ -1,0 +1,87 @@
+/*
+Color negro: #161616
+Color blanco: #fafafa
+Color brown;
+*/
+/* Globales */
+body{
+font-family: 'Open Sans', sans-serif;
+}
+/* Fin Globales */
+/* Componentes */
+.title{
+font-family: 'Work Sans', sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.separador {
+    display: block;
+    width: 100px;
+    border-top: 3px solid brown;
+    margin: 1rem auto;
+    border-radius: 100px;
+}
+.separador--white {
+    border-color: #fafafa;
+}
+.button {
+    display: inline-block;
+    padding: .7rem 1rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    color: #fafafa;
+    background-color: brown;
+}
+.button:hover {
+    background-color: #161616;
+    color: #fafafa;
+}
+.button--white {
+    background-color: white;
+    color: #161616;
+}
+.button--margin-top {
+    margin-top: 2rem;
+}
+/* Fin Componentes */
+/* Hero */
+.hero {
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url(../img/gato3.jpg);
+    background-size: cover;
+    background-position: 0 70%;
+   
+}
+.hero__title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: brown;
+    margin-bottom: 0;
+}
+.hero__text {
+    color: #fafafa;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+/* Fin Hero */
+/* Info */
+.info {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: brown;
+    color: #fafafa
+}
+.info__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.info__text {
+    font-size: 1.2rem;
+    margin-top: 0 auto;
+}
+/* Fin de Info */
